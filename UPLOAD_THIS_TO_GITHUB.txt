@@ -1,0 +1,19 @@
+BANZS FINAL GITHUB DEPLOY
+
+Upload ALL files inside this folder to your GitHub repository root.
+Do not upload only index.html.
+Do not upload the folder itself as a subfolder.
+
+Required files/folders:
+- index.html
+- 404.html
+- assets/
+- doubt-terminal.js
+- doubt-terminal.css
+- ai-config.js
+- CNAME
+- .nojekyll
+
+GitHub Pages:
+Settings > Pages > Deploy from branch > main > / root
+Custom domain: asicflowworkshop.com

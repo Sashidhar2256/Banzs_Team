@@ -1,0 +1,48 @@
+GITHUB PAGES NOT OPENING - EXACT FIX
+
+1. Open this folder:
+   /Users/besthasashidhar/Documents/Codex/BANZS_FINAL_GITHUB_DEPLOY
+
+2. In GitHub repository, delete old files if needed.
+
+3. Upload the CONTENTS of this folder to the repository root.
+   Do not upload the folder named BANZS_FINAL_GITHUB_DEPLOY.
+
+The repository root must directly show:
+   index.html
+   404.html
+   assets/
+   doubt-terminal.js
+   doubt-terminal.css
+   ai-config.js
+   CNAME
+   .nojekyll
+
+4. GitHub Pages settings:
+   Settings > Pages
+   Source: Deploy from a branch
+   Branch: main
+   Folder: / root
+   Save
+
+5. First test GitHub default URL before custom domain:
+   https://Sashidhar2256.github.io/teambanzs/
+
+6. Only after default URL works, add custom domain:
+   asicflowworkshop.com
+
+7. If custom domain says DNS check unsuccessful, fix DNS at domain provider:
+   For apex domain asicflowworkshop.com, add GitHub Pages A records:
+   185.199.108.153
+   185.199.109.153
+   185.199.110.153
+   185.199.111.153
+
+   For www.asicflowworkshop.com, add CNAME:
+   Sashidhar2256.github.io
+
+8. Wait 5-30 minutes after upload or DNS changes.
+
+Important:
+The public GitHub site can show the website UI.
+The Ollama AI backend works only locally unless you deploy the backend separately.
